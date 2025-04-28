@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Third Page</title>
+    <link rel="stylesheet" href="third.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="firstpage.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="third.html">Gallery/Bookings</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="second.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="gallery">
+            <h1>Our Gallery</h1>
+            <div class="gallery-container">
+                <img src="delicious.jpg" alt="Delicious Dish">
+                <img src="interior.jpg" alt="Restaurant Interior">
+                <img src="dessert.jpg" alt="Desserts">
+                <img src="event.jpg" alt="Event Setup">
+            </div>
+        </section>
+
+        <section class="reservations">
+            <h2>Make a Reservation</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>
+
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" min="1" required>
+
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+
+        <section class="events">
+            <h2>Upcoming Events</h2>
+            <ul>
+                <li>Live Music Night - <strong>January 15, 2025</strong></li>
+                <li>Wine Tasting Event - <strong>February 10, 2025</strong></li>
+                <li>Cooking Workshop - <strong>March 5, 2025</strong></li>
+            </ul>
+        </section>
+       
+    </main>
+
+
+    <footer>
+        <p>&copy; 2025 DOOF. All rights reserved.</p>
+        <p>Follow us on <a href="#">Facebook</a>, <a href="#">Instagram</a>, <a href="#">Twitter</a></p>
+    </footer>
+    <script src="third.js"></script>
+</body>
+</html>
